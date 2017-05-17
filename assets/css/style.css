@@ -14,6 +14,7 @@ h1, h2, h3{
 	overflow: auto;
 	width: 960px;
 	margin: 0 auto;
+	flex: 1;
 }
 
 input, textarea{
@@ -169,4 +170,11 @@ footer{
 	text-align: center;
 	color: #fff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*Flexbox Footer*/
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
