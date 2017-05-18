@@ -1,3 +1,4 @@
+/*Basic Styles*/
 
 body{
 	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -9,13 +10,12 @@ h1, h2, h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.container{
-	clear: both;
-	overflow: auto;
-	width: 960px;
-	margin: 0 auto;
-	flex: 1;
+h1{
+	float: left;
+	color: #fff;
 }
+
+/*Contact Form*/
 
 input, textarea{
 	display: block;
@@ -45,23 +45,6 @@ form{
     width: 6em;
 }
 
-header h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-header nav ul a li{
-	color: #4aaaa5;
-}
-
-.section1{
-	width: 650px;
-	float: left;
-	margin: 0 20px;
-	margin: 35px 20px;
-    background: #fff;
-    padding: 0 15px;
-}
-
 #connect-me{
 	float: left;
 	margin: 35px 0;
@@ -71,20 +54,15 @@ header nav ul a li{
     text-align: center;
 }
 
-h1{
-	float: left;
-	color: #fff;
+/*Header Styles*/
+
+header h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.content-line{
-	border-bottom: 2px solid #cccccc;
+header nav ul a li{
+	color: #4aaaa5;
 }
-
-.content-line2{
-	border-bottom: 1px solid #cccccc;
-}
-
-
 
 nav{
 	float: right;
@@ -99,6 +77,7 @@ nav ul a{
 	vertical-align: middle;
 }
 
+
 #name{
 	background-color: #4aaaa5;
 	margin-bottom: 0;
@@ -106,16 +85,57 @@ nav ul a{
 	padding: 15px 20px;
 }
 
+nav ul{
+	margin-top: 30px;
+    margin-right: 50px;
+}
+
+header{
+	clear: both;
+	overflow: auto;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+
+/*Main Section Styles*/
+
+.container{
+	clear: both;
+	overflow: auto;
+	width: 960px;
+	margin: 0 auto;
+	flex: 1;
+}
+
+.section1{
+	width: 650px;
+	float: left;
+	margin: 0 20px;
+	margin: 35px 20px;
+    background: #fff;
+    padding: 0 15px;
+}
+
+.content-line{
+	border-bottom: 2px solid #cccccc;
+}
+
+.content-line2{
+	border-bottom: 1px solid #cccccc;
+}
+
+
 #me{
 	width: 100%;
 	width: 200px;
 	height: 200px;
 }
 
+/*Styles for Portfolio Page*/
+
 .picon{
 	width: 55%;
     height: 180px;
-    /*margin: 0 7% 30px 7%;*/
   	margin: 0 auto;
 	display: block;
 }
@@ -140,22 +160,11 @@ nav ul a{
     bottom: 35px;
 }
 
-nav ul{
-	margin-top: 30px;
-    margin-right: 50px;
-}
-
 .icon{
 	width: 65px;
 	height: 65px;
 }
 
-header{
-	clear: both;
-	overflow: auto;
-	background-color: #ffffff;
-	border-bottom: 2px solid #cccccc;
-}
 
 .teal{
 	color: #4aaaa5;
